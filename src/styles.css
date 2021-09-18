@@ -1,3 +1,57 @@
+:root{
+    --primary-color: #9A8C98;
+    --secondary-color:#4A4E69;
+    --accent-color:#F2E9E4;
+    --font-color: #22223B;
+}
 body{
-    background: red;
+    background:var(--primary-color);
+    opacity: 0.7;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+p {
+font-family: 'Poppins', sans-serif;
+font-weight: normal;
+}
+.col-9 {
+    padding: 0 !important;
+    border: 2px solid var(--secondary-color);
+}
+.light-box {
+    background-color: var(--accent-color);
+}
+.icons {
+    color:var(--accent-color);
+    font-size: 30px;
+}
+.links a {
+    color: var(--font-color);
+    text-decoration: none;
+} 
+.heading {
+    background: linear-gradient(
+  to bottom,
+  var(--secondary-color),
+  var(--secondary-color) 50%,
+  var(--accent-color) 50%,
+  var(--accent-color)
+);
+background-size: 100% 7px;
+
+}
+.name {
+    font-family: 'Poppins', sans-serif;
+font-weight: normal;
+font-size:smaller;
+    background: var(--accent-color);
+    padding: 5px 20px;
+    
+}
+.page-content {
+    padding: 20px;
 }
