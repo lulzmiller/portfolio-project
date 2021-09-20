@@ -18,40 +18,4 @@ p {
 font-family: 'Poppins', sans-serif;
 font-weight: normal;
 }
-.col-9 {
-    padding: 0 !important;
-    border: 2px solid var(--secondary-color);
-}
-.light-box {
-    background-color: var(--accent-color);
-}
-.icons {
-    color:var(--accent-color);
-    font-size: 30px;
-}
-.links a {
-    color: var(--font-color);
-    text-decoration: none;
-} 
-.heading {
-    background: linear-gradient(
-  to bottom,
-  var(--secondary-color),
-  var(--secondary-color) 50%,
-  var(--accent-color) 50%,
-  var(--accent-color)
-);
-background-size: 100% 7px;
 
-}
-.name {
-    font-family: 'Poppins', sans-serif;
-font-weight: normal;
-font-size:smaller;
-    background: var(--accent-color);
-    padding: 5px 20px;
-    
-}
-.page-content {
-    padding: 20px;
-}
