@@ -1,21 +1,43 @@
 :root{
-    --primary-color: #9A8C98;
-    --secondary-color:#4A4E69;
-    --accent-color:#F2E9E4;
-    --font-color: #22223B;
-}
-body{
-    background:var(--primary-color);
-    opacity: 0.7;
+    --branding-color:#6C63FF;
+    --secondary-color:#F9F7FE;
+    --font-color: #272142;
+    --heading-font-family: 'Playfair Display', serif;
+    --default-font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--heading-font-family);
     font-weight: bold;
+    font-size: 96px;
+    
+}
+.hero {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+  
+}
+.hero h2 {
+    font-family: var(--default-font-family);
+    font-weight: normal;
+    line-height: 2;
+    font-size: 26px;
+    color: var(--font-color);
 }
 
-p {
-font-family: 'Poppins', sans-serif;
-font-weight: normal;
+.hero p {
+font-family: var(--default-font-family);
+font-weight: bold;
+font-size: 36px;
+margin:0;
+}
+.btn-branding {
+    background-color: var(--branding-color);
+    border-radius: 4px;
+    color: #FFFF;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
 
