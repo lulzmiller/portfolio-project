@@ -5,6 +5,7 @@
     --heading-font-family: 'Klee One', cursive;
     --default-font-family: 'Poppins', sans-serif;
 }
+
 h1, h2, h3 {
     font-family: var(--heading-font-family);
 }
@@ -22,6 +23,16 @@ h2 {
 p {
     font-size: 16px;
     line-height: 30px;
+}
+.nav-link {
+    color: var(--branding-color) !important;
+}
+.nav-link:hover {
+    color: var(--branding-color) !important;
+    opacity: 0.8 !important;
+}
+.nav .active {
+color: black !important;
 }
 .hero {
     background: var(--secondary-color);
