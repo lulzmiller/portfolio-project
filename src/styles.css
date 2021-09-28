@@ -1,8 +1,8 @@
 :root{
-    --branding-color:#6C63FF;
-    --secondary-color:#F9F7FE;
-    --font-color: #272142;
-    --heading-font-family: 'Playfair Display', serif;
+    --branding-color:#e76f51;
+    --secondary-color:#ede0d4;
+    --font-color: #7f5539;
+    --heading-font-family: 'Klee One', cursive;
     --default-font-family: 'Poppins', sans-serif;
 }
 h1, h2, h3 {
