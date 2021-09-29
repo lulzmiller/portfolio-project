@@ -73,27 +73,39 @@ margin:0;
     padding: 15px 30px;
 }
 .project-description {
-    padding: 120px 60px;
+    padding: 35px 60px 70px;
 }
-.about-hero {
+.content-container {
     padding: 90px 100px;
 }
-.about-hero h1 {
+.content h1 {
     font-size:64px;
     line-height:80px;
 }
-.about-hero h2 {
+.content h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
     color: var(--font-color);
 }
-.about-hero p {
-    opacity: 0.7;
+.content h3 {
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    color: var(--font-color);
+    line-height: 1.5;
 }
-.about-section-content {
+.content p {
+    opacity: 0.7;
+    font-size: 14px;
+}
+.content {
     margin: 30px;
 }
 .headshot-img {
+    border: 1 solid transparent;
+    border-radius: 30px;
+    
+}
+.project-img {
     border: 1 solid transparent;
     border-radius: 30px;
     
@@ -118,23 +130,23 @@ margin:0;
         padding: 80px 10px;
       
     }
-    .about-hero {
+    .content-container {
         padding:30px 20px;
 
     }
-    .about-hero h1 {
+    .content-container h1 {
         font-size:44px;
         line-height:60px;
     }
-    .about-hero p {
+    .content-container p {
         font-size: 15px;
     }
-    .about-section-content {
+    .content {
         text-align: center;
         margin: 0 0 30px;
         
     }
-    .about-section-content .btn-branding {
+    .content .btn-branding {
         font-size: 18px;
         padding: 10px 60px;
     }
